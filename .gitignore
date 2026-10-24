@@ -1,0 +1,64 @@
+# Gradle / Android
+.gradle/
+build/
+*/build/
+local.properties
+*.iml
+.idea/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# 资源/模型/二进制：不进本仓库（走 ../OpenDictionary-resource/ 的 Releases）
+*.db
+*.sqlite
+*.gguf
+*.onnx
+*.wav
+*.mp3
+*.mp4
+*.ttf
+*.otf
+
+# OS / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Dashboard 本地数据/缓存（D20/D22）
+work/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# 测试 APK/模型不入库
+app-test/*.apk
+app-test/*.gguf
+
+# 本机构建配置（含绝对路径，不提交）
+app/local.properties
+
+# Android 构建产物/本机配置
+app/.gradle/
+app/build/
+app/app/build/
+app/.kotlin/
+local.properties
+
+# 内部文件/文档：不入公开仓库
+AGENTS.md
+/docs/
+
+# 签名材料：严禁提交/泄露
+keystore/
+*.jks
+*.keystore
+
+# 生成数据/预编译产物（由脚本生成，不入库）
+app/app/src/main/assets/lexicon.db

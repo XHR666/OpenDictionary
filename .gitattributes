@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# 二进制（本仓库不应出现大资源；如出现须先改策略，见 ../OpenDictionary-resource/README.md）
+*.png binary
+*.jpg binary
+*.webp binary
+*.ttf binary
+*.otf binary
+
+# 注：git-lfs 未安装；本仓库不启用 LFS。大资源不进 git。
