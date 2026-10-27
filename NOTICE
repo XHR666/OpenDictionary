@@ -1,0 +1,25 @@
+OpenDictionary
+===============
+
+代码（Android App、脚本、构建配置）
+- 许可：GNU Affero General Public License v3.0 或更高版本（AGPL-3.0-or-later）
+- 完整文本：LICENSE
+
+项目自编内容（项目原创的文档、例句、词书、图片、音频等，第三方内容除外）
+- 许可：Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International（CC BY-NC-SA 4.0）
+- 说明：第三方词典/语料/字体/模型/媒体各自保留原许可，详见开源许可页与资源仓库 LICENSES/。
+
+第三方组件（保留各自许可）
+- Jetpack Compose / Kotlin / AndroidX：Apache-2.0
+- llama.cpp / ggml：MIT
+- libc++：Apache-2.0 with LLVM exception
+- Inter / Literata / Caveat 字体：SIL Open Font License 1.1
+- Qwen 模型：Apache-2.0
+- 词典与语料：ECDICT、CC-CEDICT、Wiktionary、Tatoeba、2ndLA/english-phrases 等，按原许可使用
+
+说明
+- 代码与内容为聚合分发，各自许可独立；AGPL 不改变第三方内容的原许可。
+- 捐赠为无对价的自愿支持，不构成商业授权或购买服务。
+- IELTS AI-Generated Dataset（LuchoBazz）：CC BY 4.0；AI 生成练习，非官方 IELTS 真题。
+- GAOKAO-Bench（OpenLMLab）：Apache-2.0；试题原文版权归原考试机构，仅个人学习。
+- PDFBox-Android（Tom Roush）：Apache-2.0；PDF 文字层提取。
